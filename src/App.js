@@ -12,6 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1>STUDENT RESULTS</h1>
         {/* <Student /> */}
         {this.state.studentList.map(s => 
           <Student 
